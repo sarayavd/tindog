@@ -1,24 +1,25 @@
 body {
   font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 800;
 }
 
 .container-fluid {
-  padding: 3% 15% 15%;
+  padding: 7% 15%;
 }
 
- h1 {
-font-family: 'Montserrat', sans-serif;
+/* Headings */
+
+.big-heading {
+ font-family: 'Montserrat', sans-serif;
 font-weight: 900;
 font-size: 3.5rem;
 line-height: 1.5;
- }
-
- h2 {
-font-family: 'Montserrat';
-font-weight: 800;
-font-size: 2.8rem;
-line-height: 1.5;
- }
+}
 
 
 /*Navigation Bar*/
@@ -48,17 +49,21 @@ font-weight: bold;
   margin: 5% 3% 5% 0;
 }
 
-/* title section */
+/* Title Section */
 
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
 .title-section-title {
   padding-top: 10%
 }
 
+#title .container-fluid {
+  padding: 3% 15% 15%;
+}
 
 /* Title Iphone Image*/
 
@@ -74,7 +79,6 @@ position:absolute;
 /* Features Section*/
 
 #features {
-padding: 7% 15%;
 background-color: #fff;
 position: relative;
 
@@ -107,9 +111,13 @@ position: relative;
 /* Testimonials Section*/
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
+}
+
+.testimonials-text{
+  font-size: 2.8rem;
+line-height: 1.5;
 }
 
 .testimonials-img {
@@ -118,15 +126,10 @@ position: relative;
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Press Section*/
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding: 5% 0 2%;
 }
 
@@ -142,6 +145,11 @@ position: relative;
   text-align: center;
 }
 
+.pricing-section-heading {
+  font-size: 2.8rem;
+line-height: 1.5;
+}
+
 .pricing-column{
 padding: 3% 2%;
 
@@ -151,15 +159,14 @@ padding: 3% 2%;
 
 #cta {
   background-color: #ff4c68;
-  font-family: 'Montserrat';
-  text-align: center;
+  color: #fff;
   padding: 10% 20%;
 }
 
 .cta-title {
+  font-family: 'Montserrat';
   font-weight:800;
   font-size: 3.5rem;
-  color: #fff;
   line-height: 1.5;
   padding: 5%;
 }
@@ -171,9 +178,7 @@ padding: 3% 2%;
 /* Footer Section */
 
 #footer {
-  text-align: center;
   background-color: #fff;
-  padding: 7% 15%;
 }
 
 .icon-footer {
@@ -181,7 +186,7 @@ padding: 3% 2%;
 }
 
 .footer-p {
-  color:#DDDDDD;
+  color: #8f8f8f;
 }
 
 /*Media Query*/
