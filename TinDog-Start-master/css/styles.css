@@ -12,6 +12,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 7% 15%;
 }
 
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Headings */
 
 .big-heading {
@@ -51,18 +63,13 @@ font-weight: bold;
 
 /* Title Section */
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
 .title-section-title {
   padding-top: 10%
 }
 
 #title .container-fluid {
   padding: 3% 15% 15%;
+  text-align: left;
 }
 
 /* Title Iphone Image*/
@@ -79,7 +86,6 @@ position:absolute;
 /* Features Section*/
 
 #features {
-background-color: #fff;
 position: relative;
 
 }
@@ -99,7 +105,6 @@ position: relative;
 }
 
 .title-features {
-  font-family: Montserrat;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -112,7 +117,6 @@ position: relative;
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonials-text{
@@ -142,7 +146,6 @@ line-height: 1.5;
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-section-heading {
@@ -158,14 +161,10 @@ padding: 3% 2%;
 /* Call To Action Section*/
 
 #cta {
-  background-color: #ff4c68;
-  color: #fff;
   padding: 10% 20%;
 }
 
 .cta-title {
-  font-family: 'Montserrat';
-  font-weight:800;
   font-size: 3.5rem;
   line-height: 1.5;
   padding: 5%;
@@ -176,10 +175,6 @@ padding: 3% 2%;
 }
 
 /* Footer Section */
-
-#footer {
-  background-color: #fff;
-}
 
 .icon-footer {
   margin: 20px 10px;
